@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=png, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        /* element */
+p {
+  color: blue;
+  border: 40px solid red;
+}
+
+div {
+  color: rgb(158, 76, 8);
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+  height: 50%;
+  margin-left: auto;
+}
+
+/* class selector */
+.c1 {
+  color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: 200;
+  border-bottom: 10px solid black;
+}
+
+.c2 {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+}
+
+/* id selector */
+#p1 {
+  color: bisque;
+  background-color: aqua;
+  font-size: large;
+}
+
+#p2 {
+  color: blue;
+  background-color: blanchedalmond;
+  font-size: medium;
+}
+
+#p3 {
+  color: blueviolet;
+  background-color: blue;
+  font-size: small;
+}
+
+#p4 {
+  color: aqua;
+  font-weight: 300;
+}
+
+/* universal selector */
+* {
+  color: antiquewhite;
+  background-color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: 200;
+}
+    </style>
+    <p class="c1" id="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsam ab quidem suscipit perspiciatis atque
+        assumenda esse earum quod quo!
+    </p>
+    <p class="c1" id="p2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium unde amet, quos earum suscipit commodi qui
+        deserunt id deleniti saepe?
+    </p>
+    <p class="c2" id="p3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatem quibusdam aperiam aspernatur in harum
+        error quos, sint, ducimus repudiandae eligendi amet corrupti. Impedit reiciendis hic dolores fugit iure veniam.
+    </p>
+    <p class="c2" id="p4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi, eaque aspernatur magnam laudantium quaerat
+        cupiditate totam maiores dolore velit unde quae consectetur excepturi repellendus iste fugiat, libero facere
+        voluptas!
+    </p>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum molestiae assumenda repellendus amet,
+        odit perspiciatis vero ab doloremque necessitatibus beatae in. Assumenda, fugit. Labore laboriosam maxime natus
+        voluptatibus ducimus.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero harum quibusdam vitae eaque possimus doloribus
+        deleniti esse ad beatae, fuga voluptate in earum? Accusamus ad excepturi tempora quo nemo repudiandae.
+    </div>
+    <ol>
+        <li>CSK</li>
+        <li>MI</li>
+        <li>SRH</li>
+        <li>KKR</li>
+        <li>rCB</li>
+    </ol>
+    <ul>
+        <li>IND</li>
+        <li>AUS</li>
+        <li>NZ</li>
+    </ul>
+</body>
+</html>
